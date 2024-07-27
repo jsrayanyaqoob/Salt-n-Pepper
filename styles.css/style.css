@@ -1,0 +1,1739 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.main-div-header-mid{
+    background-color: #000000;
+    height: 203vh;
+}
+
+.main-navbar-div{
+    height: 91px;
+    background-color: #000000;
+}
+
+.main-navbar-styling-logo-and-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-styling{
+    width: 165px;
+    margin: 0 64.5px;
+    padding: 9px 0px;  
+}
+
+.anchor-tag-div{
+    display: flex;
+    gap: 42px;
+    font-weight: 100;
+    align-items: center;
+    margin-right: 69px;
+    margin-top: 6px;
+}
+
+.anchor-tag-div a {
+    text-decoration: none;
+    color: #FFFFFF;
+    /* color: #000000; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.5px;
+}
+
+.navbar-button-main-div{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.franchise-btn{
+    padding: 18px 15.5px;
+    border-radius: 30px;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 13.5px;
+    cursor: pointer;
+}
+
+.order-online-btn{
+    border-radius: 30px; 
+    padding: 12.8px 19.5px;
+    background-color: #ED1C24;
+    color: #FFFFFF;
+    font-size: 14.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.fa-arrow-right{
+    background-color: #FFFFFF;
+    padding:5px;
+    color: #DC3545;
+    border-radius: 40px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.welcome-part-images-main-div{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+/* 
+.main-bg-image-starting{
+    display: flex;
+    justify-content: center;
+} */
+
+.welcome-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: lighter; */
+    font-weight: 100;
+    font-size: 41px;
+}
+
+.saltpepspan{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51.5px;
+}
+
+.paragraph-brands{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: #A8B3B3;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    word-spacing: 3px;
+    letter-spacing: 0.2px;
+}
+
+.brands-images-main-div{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 40px;
+}
+
+.mainbrandimg {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    padding: 24.5px 18px;
+    width: 250px;
+    /* height: 140px; */
+}
+
+.brand-image-btn-div{
+    display: flex;
+    border: 1px solid 1px solid rgba(255, 255, 255, 0.3);
+    justify-content: center;
+    gap: 108px;
+    margin-top: 28px;
+    align-items: center;
+}
+
+.order-now-btn{
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px 55px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 13.5px;
+}
+
+.main-div-mid-por{
+    background-color: #0F0F0F;
+    padding: 80px; 
+    z-index: -1;
+    background-image: url("bgSimgport.webp");
+    background-repeat: no-repeat;
+    background-size: 21.9%;
+    background-position-x: 95%;
+    background-position-y: 100px;
+}
+
+.heading-paragraph-main-div-wr{
+    color: #FFFFFF;
+    text-align: center; 
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+}
+
+.heading-wr-por{
+    font-size: 48px;
+}
+
+.salt-wr-por{
+    font-size: 52px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+}
+
+.para {
+    display: block;
+}
+
+.paragraph-wr-por-main-bf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 14.5px 0px 48px;
+}
+
+.content-one-images-wr-por-main-div{
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.islamabad-sm {
+    color: #ED1C24;
+    font-size: 14.5px;
+    letter-spacing: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.saltnpepheadmidpor{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 9px;
+    font-weight: 400;
+}
+
+.pep-span{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.5px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    display: flex;
+    gap: 7px;
+    margin-top: 17px;
+}
+
+.content-one-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.5px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    gap: 7px;
+}
+
+.content-one-image-div{
+    margin: 0px 22px;
+    padding: 0px 7px;
+}
+
+.get-direction-btn{
+    padding: 13.5px 27px;
+    border-radius: 40px;
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+    border: 1px solid #525252;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13.5px;
+    margin-top: 53px; 
+    cursor: pointer;
+}
+
+.image-content-two-div{
+    /* padding: 0px 55px 0px 0px; */
+}
+
+.content-2-wr-por-main-div{
+    margin-right: 128px;
+}
+
+.content-second-images-wr-por-main-div{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
+
+.faisalabad-small-con{
+    color: #ED1C24;
+    font-size: 15.5px;
+    letter-spacing: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.saltnpepheadmidpor-con-two{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    
+}
+
+.pep-span-con-two{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.content-two {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+    display: flex;
+    gap: 7px;
+    margin-top: 15px;
+}
+
+
+.content-two-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    gap: 7px;
+}
+
+.get-direction-btn-con-two{
+    padding: 13.5px 28px;
+    border-radius: 40px;
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+    border: 1px solid #525252;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    margin-top: 53px; 
+    cursor: pointer;
+}
+
+.content-three-images-wr-por-main-div{
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    margin-top: 60px;
+}
+
+.main-div-footer-starting-por-image-wr-p{
+    background-color: #000000;
+    padding: 70px 0px 38px 0px;
+}
+
+.heading-foot-work-start-web{
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+    padding: 0px 15px;
+    z-index: 2;
+}
+
+.heading-span-foot-start{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+}
+
+        /* All Div Positioning */
+.main-div-images-plazas-wr{
+    display: flex;
+    justify-content: center;
+    gap: 30.5px;
+    text-align: center;
+    margin-top: 30px;
+    background-image: url(BigPimg.webp);
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+        /* Exporium Mall Styling */
+.emporium-sml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-bottom: 8px;
+    /* display: block; */
+    margin-top: 24px;
+}
+
+.express-salt{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    /* margin-top:  ; */
+    font-size: 22px;
+}
+
+.salt-heading-one{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.loc-dot-one{
+    color: #A8B3B3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 10.5px;
+}
+
+.pho-sig-one {
+    color: #A8B3B3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;    
+    margin-top: 10.5px;
+}
+    /* Gujran Wala Content Styling */
+.gujran-wala-sml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-bottom: 8px;
+    /* display: block; */
+    margin-top: 24px;
+}
+
+.express-two-content{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.salt-heading-two-con{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.gujranwala-para-one{
+    color: #A8B3B3;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.gujranwala-para-two{
+    color: #A8B3B3;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+        /* Sarghoda Content Styling */
+.sarghoda-sml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-bottom: 8px;
+    /* display: block; */
+    margin-top: 24px;
+}
+
+.express-three-con{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.it-span-three-con{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.sarghoda-con-three-para{
+    color: #A8B3B3;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.sarghoda-con-three-sec{
+    color: #A8B3B3;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.emporium-plaza-img-wr{
+    display: flex;
+    flex-direction: column;
+}
+
+.gujran-wala-img-wr{
+    display: flex;
+    flex-direction: column;
+}
+
+.sarghoda-img-wr{
+    display: flex;
+    flex-direction: column;
+}
+        /* Empo Mall BTN */
+
+.get-direct-empo-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-empo-mall-gd{
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 1px solid #525252;
+    padding: 10.5px 28px;
+    border-radius: 40px;
+    margin-top: 20px;
+    font-size: 13.5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nahbro{
+    padding: 6px;
+    font-size: 20px;
+    transform: rotate(330deg);
+    font-weight: 400;
+}
+
+        /* Gujran Btn */
+.get-direct-gujran-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-gujran-mall-gd{
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 1px solid #525252;
+    padding: 10.5px 28px;
+    border-radius: 40px;
+    margin-top: 20px;
+    font-size: 13.5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nahbro{
+    padding: 6px;
+    font-size: 20px;
+    transform: rotate(330deg);
+    font-weight: 400;
+}
+
+        /* Sarghoda Btn */
+.get-direct-sarghoda-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.btn-sarghoda-mall-gd{
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 1px solid #525252;
+    padding: 10.5px 28px;
+    border-radius: 40px;
+    margin-top: 20px;
+    font-size: 13.5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nahbro{
+    padding: 6px;
+    font-size: 20px;
+    transform: rotate(330deg);
+    font-weight: 400;
+}
+
+        /* Second Layer */
+
+.images-wr-main-div-second-layer-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    z-index: 1;
+    gap: 31px;
+    /* height: max-content; */
+}
+
+        /* Div Start Layer Two */
+
+.jhelum-image-wr-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.faisal-image-wr-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15.5px;
+}
+
+.dha-content-layer-two-images-wr{
+    display: flex;
+    flex-direction: column;
+}
+
+        /* Div End Layer Two */
+
+.jhelum-sml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-bottom: 8px;
+    /* display: block; */
+    margin-top: 24px;
+}
+
+.layer-two-content-jhelum-heading{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.layer-two-span{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.opp-layer-two-con-one{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.opp-layer-two-para-two-con-one{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+        /* Content 2 Faisal Town*/
+
+.faisal-town-sml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-bottom: 8px;
+    /* display: block; */
+    margin-top: 24px;
+}
+
+.express-layer-two-con-two-head{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.salt-con-two-layer-2-span{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.faisal-town-para-con-one{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.faisal-town-para-con-two{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+            /* DHA Styling Layer 2 Content 3 Ending */
+.dha-sml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-bottom: 8px;
+    /* display: block; */
+    margin-top: 24px;
+}
+
+.express-content-three-layer-two-end{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.layer-two-con-three-span{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.layer-two-con-three-para-one{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.layer-two-con-three-para-two-phone{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+} 
+
+            /* Layer Three Content Styling */
+
+.layer-three-image-wr-main-div-working-content{
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+    margin-top: 30px;
+}
+            /* Divs */
+.bahria-town-image-wr{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.gujar-khan-image-wr{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.lahore-plaza-image-wr-content-layer-three{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+            /* Bahria Town Container Content Styling */
+.bahriatown-sml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-bottom: 8px;
+    /* display: block; */
+    margin-top: 24px;
+}
+
+.layer-three-heading-content-one{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.layer-three-con-one-span{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.para-layer-three-con-one{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.para-layer-three-con-two{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.get-direction-leyer-three{
+    width: 192.37px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 1px solid #525252;
+    padding: 10.3px 28px;
+    border-radius: 40px;
+    font-size: 14.5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    margin: 40px auto;
+    
+}
+
+            /* Gujar Khan Content Styling */
+
+.gujar-khan-sml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-bottom: 8px;
+    /* display: block; */
+    margin-top: 24px;
+}
+
+.salt-layer-three-gujran{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.salt-layer-three-span-gujran{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.gujar-khan-para-one{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.gujar-khan-para-two{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+                /* Lahore Content Styling */
+
+.lahore-content-sml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-bottom: 8px;
+    /* display: block; */
+    margin-top: 24px;
+}
+
+.heading-level-two-content-three-layer-three{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.span-three-con-layer-three{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.loc-dot-layer-three-con-three-para{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.phone-lay-three-con-three{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+            /* Layer Four */
+.layer-four-two-images-main-div-wr{
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+    position: relative;
+    /* background-image: url(redclrbgimg.webp);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: -460px;
+    background-position: right;
+    z-index: 5; */
+}
+
+            /* Divs */
+.gujrat-img-wr-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sahiwal-img-wr-div-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+
+            /* Gujrat Content Styling */
+.gujrat-sml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-bottom: 8px;
+    /* display: block; */
+    margin-top: 24px;
+}
+
+.layer-four-gujrat-content-heading{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.layer-four-span-content-gujrat{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.layer-four-content-gujrat-para-one{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.layer-four-content-gujrat-para-two{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+            /* Sahiwal Content Styling */
+
+.sahiwal-sml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-bottom: 8px;
+    /* display: block; */
+    margin-top: 24px;
+}
+
+.layer-four-sahiwal-content-heading{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.layer-four-span-content-sahiwal{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.sahiwal-para-one-dot{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.sahiwal-para-two-phone{
+    color: #A8B3B3;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+}
+
+.bg-red-background-img{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+    
+            /* Main Footer Start Big Image And Others */
+.footer-second-last-part-main-div{
+    background-color: #0f0f0f;
+    padding-top: 48px;
+    height: 103vh;
+}
+
+.main-gujranwala-big-img-div-wr{
+    display: flex;
+    margin-top: 41px;
+    gap: 28px;
+}
+
+.footer-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    font-weight: 200;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer-heading-salt-span{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+            /* Working Container Of Gujran Wala */
+
+.gujranwala-wr-div{
+    margin-top: 55px;
+    /* padding: 16px 15px 15px 0px; */
+}
+
+.big-img-gujran-wala-sml{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.5px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-bottom: 8px;
+    /* display: block; */
+    margin-top: 24px;
+}
+
+.big-img-heading-gujranwala{
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 26.5px;
+}
+
+.big-img-span-gujranwala{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.para-big-img-gujran-wala-one, .para-big-img-gujran-wala-two{
+    color: #A8B3B3;
+    font-size: 15.3px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+    letter-spacing: 1px;
+}
+
+/* .para-big-img-gujran-wala-two{
+    color: #A8B3B3;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10.5px;
+    letter-spacing: 1px;
+} */
+
+.get-direction-big-img-gujran-wala-btn{
+    padding: 10.5px 28px;
+    background-color: #28A745;
+    color: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;    
+    gap: 10px;
+    margin-top: 35px;
+    border: none;
+    font-size: 13.5px;
+    cursor: pointer;
+}
+
+.design{
+    color: #28A745;
+    padding: 6px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+                /* Footer Ending Styling And Locations */
+
+.footer-ending-main-div-images-flex-wr{
+    background-color: #000000;
+}
+
+.saltpepper-footer-ending-head{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 100;
+    padding-top: 60px;
+}
+
+.salt-npep-span-footer-ending{
+    font-size: 51px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.opening-soon-span{
+    font-size: 28.5px;
+}
+
+         /* Main Work */
+
+        /* First Layer   */
+
+.first-layer-loc-dot-img{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    gap: 30px;
+    margin-top: 39px;
+}
+
+        /* First Layer Ingredients */
+
+.opening-soon{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.5px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-top: 17px;
+    display: block;
+    /* margin-top: 24px; */
+}
+
+.loc-dot-heading{
+    margin-top: 11.5px;
+    font-weight: 100;
+}
+
+.salt-span-ingredient{
+    font-weight: bold;
+    font-size: 23.5px;
+}
+
+.loc-dot-para-layer-one{
+    font-size: 21.5px;
+    margin-top: 6px;
+}
+
+.loc-dot-para-two-layer-one{
+    font-size: 21.5px;
+    margin-top: 6px;
+}
+
+        /* One */
+.flex-box-location-one, .flex-box-location-two, .flex-box-location-three{
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 245px;
+    border-radius: 6px;
+    padding: 25px 15px;
+}
+
+        /* Two */
+.flex-box-location-two{
+    background-color: #FFFFFF;
+}
+
+        /* Three */
+.flex-box-location-three{
+    background-color: #FFFFFF;
+}
+
+
+
+        /* Second Layer */
+
+.second-layer-loc-dot-img{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+        /* Second Layer Ingredients */
+
+.opening-soon-two{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.5px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-top: 17px;
+    display: block;
+    /* margin-top: 24px; */ 
+}
+
+.loc-dot-heading-two{
+    margin-top: 11.5px;
+    font-weight: 100;
+}
+
+.salt-pep-span-two{
+    font-weight: bold;
+    font-size: 23.5px;
+}
+
+.loc-dot-para-one-layer-two{
+    font-size: 21.5px;
+    margin-top: 6px;
+}
+
+.loc-dot-para-two-layer-two{
+    font-size: 21.5px;
+    margin-top: 6px;    
+}
+
+        /* Four */
+.flex-box-location-four{
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 245px;
+    border-radius: 6px;
+    padding: 25px 15px;
+}
+
+        /* Five */
+.flex-box-location-five{
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 245px;
+    border-radius: 6px;
+    padding: 25px 15px;
+}
+
+        /* Six */
+.flex-box-location-six{
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 245px;
+    border-radius: 6px;
+    padding: 25px 15px;
+}
+
+
+
+        /* Last Layer */
+
+        /* Last Layer Ingredients */
+
+.opening-soon-three{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.5px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    /* text-align: center; */
+    margin-top: 17px;
+    display: block;
+    /* margin-top: 24px; */ 
+}
+
+.salt-n-pep-heading-last-layer{
+    margin-top: 11.5px;
+    font-weight: 100;
+}
+
+.salt-n-pepper-span-last-layer{
+    font-weight: bold;
+    font-size: 23.5px;
+}
+
+.last-layer-three-para{
+    font-size: 21.5px;
+    margin-top: 6px;
+}
+
+.third-layer-loc-dot-img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+        /* Seven */
+.flex-box-location-seven{
+    background-color: #FFFFFF;
+    width: 360px;
+    height: 245px;
+    border-radius: 6px;
+    padding: 25px 15px;
+}
+
+
+        /* Footer Second Last Ending Styling */
+
+.footer-second-last-ending-main-div{
+    background-color: #000000;
+    padding-top: 75px;
+    height: 77vh;
+}
+
+.social-feed-heading-styling{
+    font-size: 37.5px;
+    color: #FFFFFF; 
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.images-second-last-ending-footer-main-work{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 43px;
+}
+
+        /* Footer */
+.footer-work-wr-main-div-flexbox{
+    background-color: #0F0F0F;
+    padding: 70px 15px 20px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+        /* Content One */
+
+.footer-para-content-one{
+    /* margin: 0px !important; */
+    padding-bottom: 24px;
+    margin-top: 20px;
+    padding-right: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.terms-and-policy-para{
+    margin: 0px !important;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+        /* Content 2 */
+
+.site-link-div-wr-flex-ul-li{
+    
+}
+
+.site-links-para{
+    color: #FFFFFF;
+    margin: 0px !important;
+    padding-top: 13px;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.5px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+}
+
+.ul-list-cl-wr{
+    margin: 0px !important;
+    padding-top: 13px;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5px;
+    line-height: 38.5px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.7);
+    list-style: none;
+}
+
+            /* Content Three */
+
+.contact-us-para{
+    color: #FFFFFF;
+    margin: 0px !important;
+    padding-top: 13px;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.5px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+}
+
+.contact-number-one, .contact-number-two, .contact-number-three, .contact-number-four, .location-email-pk{
+    margin: 0px !important;
+    line-height: 45px;
+    padding-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.location-two-lahore-pakistan{
+    margin: 0px !important;
+    padding-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+            /* Content 4 */
+
+.insta-face-twit-images-app-google-main-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.follow-us-para{
+    color: #FFFFFF;
+    margin: 0px !important;
+    padding-top: 13px;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.5px;
+    line-height: 21px;
+    letter-spacing: 0.05em; 
+}
+
+.images-face-insta-others{
+    
+}
+
+.facebook-anchor{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #ED1C24;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    flex-direction: row;
+}
+
+.insta-anchor{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #ED1C24;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.twitter-anchor{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #ED1C24;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.anchor-tags-font-awesome{
+    display: flex;
+    gap: 1px;
+}
+
+            /* App And Apple Store Images */
+
+.images-apple-app-store-wr{
+    margin-top: 30px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.apple-store-margin{
+    margin-top: 9px;
+}
+
+            /* Big S Image Footer */
+
+.footer-work-wr-main-div-flexbox{
+    z-index: 5;
+    background-image: url(Simgfooter.webp);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 59px;
+}
+
+                /* Footer Last Container */
+    
+.footer-last-para-wr-main-div{
+    /* border-top: 1px solid #525252; */
+  
+    background-color: #0F0F0F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
+
+ 
+}
+.line1{
+    border-bottom: 1px solid #525252;
+
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 65px;
+}
+.powered-by-tossdown{
+    margin: 0px !important;
+    padding-right: 0px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.copyright-symbol-para{
+    margin: 0px !important;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.7);
+    border-top: #525252;
+}
+
+/* .line-width{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    color: #525252;
+    background-color: #525252;
+} */
+
+/* .hr-tag-footer{
+    color: #4c4c4c;
+} */
+
+/* .hr-div{
+    position: absolute;
+    width: 96%;
+    left: 24px;
+    top: 1252.5%;
+} */
