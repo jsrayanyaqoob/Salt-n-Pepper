@@ -162,7 +162,7 @@ html{
     background-color: #0F0F0F;
     padding: 80px; 
     z-index: -1;
-    background-image: url("bgSimgport.webp");
+    background-image: url("/assets/bgSimgport.webp");
     background-repeat: no-repeat;
     background-size: 21.9%;
     background-position-x: 95%;
@@ -1120,6 +1120,7 @@ html{
 
 .main-gujranwala-big-img-div-wr{
     display: flex;
+    justify-content: space-around;
     margin-top: 41px;
     gap: 28px;
 }
@@ -1145,7 +1146,6 @@ html{
 
 .gujranwala-wr-div{
     margin-top: 55px;
-    /* padding: 16px 15px 15px 0px; */
 }
 
 .big-img-gujran-wala-sml{
